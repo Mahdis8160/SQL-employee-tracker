@@ -1,5 +1,5 @@
 {
-  "name": "db",
+  "name": "hw--12-employee-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,13 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewcmcghie/HW--12-Employee-Tracker.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewcmcghie/HW--12-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/andrewcmcghie/HW--12-Employee-Tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "dotenv": "^10.0.0",
-    "inquirer": "^8.1.5",
-    "mysql2": "^2.3.0"
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
   }
 }
